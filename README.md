@@ -17,7 +17,7 @@ results in data loss.
 
 The Core Data stack is setup to have:
   - a root ``NSManagedObjectContext`` that is bound to the ``NSPersistentStoreCoordinator``
-  - a sub-```NSManagedObjectContext`` that has the root context as ``parentContext``
+  - a sub-``NSManagedObjectContext`` that has the root context as ``parentContext``
 
 Please look into ``-[CBHMTAppDelegate test:]`` for the test code and ``-[CBHMTAppDelegate flushUnsavedChanges]`` for the saving code.
 
